@@ -19,8 +19,8 @@ public static int[] solution(int[] arr,int target) {
 	for(int i=0;i<5;i++) {
 		for(int j=0;j<5;j++) {
 			if(arr[i] + arr[j]==target) {
-				sol[0]=arr[j];
-				sol[1]=arr[i];
+				sol[0]=j;
+				sol[1]=i;
 			}
 		    
 		}
